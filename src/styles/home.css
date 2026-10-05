@@ -431,3 +431,24 @@ html.has-motion .reveal--delay-2 { transition-delay: .23s; }
 @media (max-width: 900px) and (max-height: 560px) and (orientation: landscape) {
   .hero { min-height: 620px; }
 }
+/* Render icons as crisp vectors consistently across mobile browsers. */
+.button > span svg,
+.nav-cta > span svg,
+.footer-directions > span svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+.footer-bottom a { display: inline-flex; align-items: center; gap: 5px; }
+.footer-bottom a svg { display: block; width: 13px; height: 13px; flex: 0 0 13px; }
+.rating-pill__star { display: block; width: 17px; height: 17px; flex: 0 0 17px; fill: currentColor; color: var(--gold); }
+.reviews__score .reviews__stars { display: flex; grid-column: 1 / -1; gap: 3px; margin-bottom: 8px; color: var(--gold); }
+.reviews__stars svg { display: block; width: 13px; height: 13px; flex: 0 0 13px; fill: currentColor; }
+.review-card__stars { display: inline-flex; align-items: center; gap: 2px; color: var(--gold); }
+.review-card__stars svg { display: block; width: 11px; height: 11px; flex: 0 0 11px; fill: currentColor; }
+.visit__pin { display: block; width: 17px; height: 17px; flex: 0 0 17px; color: var(--copper); }
+
+@media (max-width: 680px) {
+  .reviews__score .reviews__stars { margin: 0; }
+}
