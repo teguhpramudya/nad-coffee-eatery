@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20382c" />
+    <meta name="description" content="A home surrounded by #NADTURE. Discover good coffee, comforting food and a leafy riverside pause at NAD Coffee & Eatery, Batubulan." />
+    <title>NAD Coffee &amp; Eatery — A little closer to slow</title>
+    <link rel="icon" href="assets/images/nad-instagram-logo.jpg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles/home.css" />
+    <script src="src/scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="NAD Coffee &amp; Eatery home">
+        <img class="brand__logo" src="assets/images/nad-instagram-logo.jpg" alt="" />
+        <span class="brand__wording">
+          <span class="brand__name">NAD</span>
+          <span class="brand__descriptor">COFFEE &amp; EATERY</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#story">The feeling</a>
+        <a href="#menu">At the table</a>
+        <a href="#reviews">Kind words</a>
+        <a href="#visit">Find NAD</a>
+        <a class="nav-cta" href="https://maps.google.com/?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar" target="_blank" rel="noopener noreferrer">
+          Get directions <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <!-- Official NAD BALI Instagram photo. -->
+        <img class="hero__image" src="assets/images/nad-instagram-space.jpg" alt="" fetchpriority="high" />
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <div class="hero__content wrap">
+          <p class="eyebrow eyebrow--light">A HOME SURROUNDED BY #NADTURE</p>
+          <h1 id="hero-title">Take the day<br /><em>a little slower.</em></h1>
+          <p class="hero__intro">Find your place among the green. Start with thoughtfully made coffee, stay for a good plate and a little longer by the river.</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="https://maps.google.com/?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar" target="_blank" rel="noopener noreferrer">Come find us <span aria-hidden="true">↗</span></a>
+            <a class="button button--outline-light" href="#story">A little about NAD <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <div class="hero__bottom wrap">
+          <a class="rating-pill" href="https://www.google.com/search?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar+reviews" target="_blank" rel="noopener noreferrer" aria-label="Read NAD Coffee & Eatery reviews on Google. Rated 4.6 out of 5 from 779 reviews.">
+            <span class="rating-pill__star" aria-hidden="true">★</span>
+            <span><strong>4.6</strong><span class="rating-pill__sub"> / 5 on Google</span></span>
+            <span class="rating-pill__divider"></span>
+            <span class="rating-pill__count">779 reviews</span>
+          </a>
+          <span class="hero__note">BATUBULAN, GIANYAR <span class="hero__note-dot">·</span> 07.30—21.30 WITA</span>
+        </div>
+        <a class="scroll-cue" href="#story" aria-label="Scroll to discover NAD"><span></span></a>
+      </section>
+
+      <div class="proof-bar" aria-label="What guests love about NAD">
+        <div class="proof-bar__item">Riverside calm</div>
+        <span class="proof-bar__separator" aria-hidden="true">/</span>
+        <div class="proof-bar__item">Friendly faces</div>
+        <span class="proof-bar__separator" aria-hidden="true">/</span>
+        <div class="proof-bar__item">Room to stay awhile</div>
+        <span class="proof-bar__separator" aria-hidden="true">/</span>
+        <div class="proof-bar__item">Coffee, food &amp; good value</div>
+      </div>
+
+      <section class="story section wrap" id="story" aria-labelledby="story-title">
+        <div class="story__copy reveal">
+          <p class="eyebrow eyebrow--dark">01 / THE FEELING</p>
+          <h2 id="story-title">A quiet find.<br /><em>A favorite feeling.</em></h2>
+          <p class="story__lead">Tucked just far enough from the busy road, NAD feels like the kind of place you’re glad someone let you in on.</p>
+          <p class="story__body">Follow the green, find a table by the river, and let the afternoon take its time. Come to catch up, work a little, celebrate something, or simply enjoy doing less.</p>
+          <a class="button button--outline-dark" href="#moments">Find your kind of moment <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="story__photo reveal reveal--delay-1 image-reveal">
+          <!-- Official NAD BALI Instagram photo. -->
+          <img src="assets/images/nad-instagram-coffee.jpg" alt="Coffee being brewed at NAD Coffee &amp; Eatery" loading="lazy" decoding="async" />
+          <figcaption><span>Slow made, thoughtfully poured</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="moments section" id="moments" aria-labelledby="moments-title">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow eyebrow--dark">02 / MAKE YOURSELF AT HOME</p>
+              <h2 id="moments-title">There’s a little<br /><em>room for everything.</em></h2>
+            </div>
+            <p class="section-heading__aside">The best plans are often the simple ones. Pick a seat that feels like you.</p>
+          </div>
+
+          <div class="moments__grid">
+            <article class="moment-card moment-card--work reveal">
+              <div class="moment-card__top"><span>01</span><span class="moment-card__icon" aria-hidden="true">◌</span></div>
+              <h3>Work a little.<br /><em>Exhale a lot.</em></h3>
+              <p>A calm corner, a good coffee, and a change of scenery for the WFH or WFC kind of day.</p>
+              <span class="moment-card__foot">A CHANGE OF PACE</span>
+            </article>
+            <article class="moment-card moment-card--river reveal reveal--delay-1">
+              <div class="moment-card__top"><span>02</span><span class="moment-card__icon" aria-hidden="true">≈</span></div>
+              <h3>Follow the<br /><em>sound of water.</em></h3>
+              <p>Settle beside the river, surrounded by bamboo and the sort of green that slows your breathing.</p>
+              <span class="moment-card__foot">A LITTLE CLOSER TO NATURE</span>
+            </article>
+            <article class="moment-card moment-card--together reveal reveal--delay-2">
+              <div class="moment-card__top"><span>03</span><span class="moment-card__icon moment-card__icon--monogram" aria-hidden="true">N</span></div>
+              <h3>Make a day<br /><em>of getting together.</em></h3>
+              <p>Indoor and open-air seats make space for lunch dates, long catch-ups and special little celebrations.</p>
+              <span class="moment-card__foot">GOOD COMPANY, ALWAYS</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="table section wrap" id="menu" aria-labelledby="table-title">
+        <figure class="table__photo reveal image-reveal">
+          <!-- Official NAD BALI Instagram photo. -->
+          <img src="assets/images/nad-instagram-food.jpg" alt="A spread of fresh café dishes at NAD, surrounded by tropical greenery" loading="lazy" decoding="async" />
+          <figcaption>THE TABLE IS BETTER WITH COMPANY</figcaption>
+        </figure>
+        <div class="table__copy reveal reveal--delay-1">
+          <p class="eyebrow eyebrow--dark">03 / AT THE TABLE</p>
+          <h2 id="table-title">Good coffee.<br /><em>One more bite.</em></h2>
+          <p>Some familiar favorites that guests mention: coffee, chicken wings, nachos and pancakes. Bring an appetite, bring a friend, or enjoy both at your own pace.</p>
+          <div class="menu-notes" aria-label="Guest-mentioned favorites">
+            <span>Coffee</span><span>Chicken wings</span><span>Nachos</span><span>Pancakes</span>
+          </div>
+          <p class="table__fineprint">Menu availability can change. Ask NAD for today’s menu.</p>
+          <a class="button button--outline-dark" href="https://www.google.com/search?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar+menu" target="_blank" rel="noopener noreferrer">Search for the menu <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="reviews section" id="reviews" aria-labelledby="reviews-title">
+        <div class="wrap">
+          <div class="reviews__heading reveal">
+            <p class="eyebrow eyebrow--light">04 / KIND WORDS</p>
+            <h2 id="reviews-title">The kind of place<br />that <em>stays with you.</em></h2>
+            <div class="reviews__score"><span aria-hidden="true">★★★★★</span><strong>4.6</strong><small>from 779 Google reviews</small></div>
+          </div>
+
+          <div class="review-grid">
+            <figure class="review-card reveal">
+              <span class="review-card__quote" aria-hidden="true">“</span>
+              <blockquote>“Tempatnya sangat nyaman dan tenang, cocok untuk santai atau kerja.”</blockquote>
+              <figcaption><span class="review-card__stars" aria-label="5 stars">★★★★★</span><span>Google review</span></figcaption>
+            </figure>
+            <figure class="review-card review-card--featured reveal reveal--delay-1">
+              <span class="review-card__quote" aria-hidden="true">“</span>
+              <blockquote>“The place is beautiful… cozy, with a lovely view of the river and lush bamboo trees.”</blockquote>
+              <figcaption><span class="review-card__stars" aria-label="5 stars">★★★★★</span><span>Google review</span></figcaption>
+            </figure>
+            <figure class="review-card reveal reveal--delay-2">
+              <span class="review-card__quote" aria-hidden="true">“</span>
+              <blockquote>“Semuanya ramah dan harganya masih ramah di kantong.”</blockquote>
+              <figcaption><span class="review-card__stars" aria-label="5 stars">★★★★★</span><span>Google review</span></figcaption>
+            </figure>
+          </div>
+
+          <a class="button button--outline-light reviews__link" href="https://www.google.com/search?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar+reviews" target="_blank" rel="noopener noreferrer">Read the reviews on Google <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="visit section wrap" id="visit" aria-labelledby="visit-title">
+        <div class="visit__copy reveal">
+          <p class="eyebrow eyebrow--dark">05 / YOUR TABLE IS WAITING</p>
+          <h2 id="visit-title">A little tucked away.<br /><em>Well worth finding.</em></h2>
+          <p>Look for NAD in Batubulan, Gianyar. It’s a neighborhood hideaway, so opening the map first is a lovely idea.</p>
+          <a class="button button--forest" href="https://maps.google.com/?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar" target="_blank" rel="noopener noreferrer">Open directions <span aria-hidden="true">↗</span></a>
+          <span class="visit__location"><span class="visit__pin" aria-hidden="true">⌖</span> BATUBULAN, GIANYAR · BALI</span>
+          <span class="visit__hours">OPEN 07.30–21.30 WITA</span>
+        </div>
+        <div class="visit__art reveal reveal--delay-1" aria-hidden="true">
+          <span class="visit__orbit visit__orbit--one"></span>
+          <span class="visit__orbit visit__orbit--two"></span>
+          <span class="visit__seal"><span>NAD</span><small>COFFEE &amp; EATERY</small></span>
+          <span class="visit__art-note">GO WHERE<br />THE GREEN IS</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main wrap">
+        <a class="brand brand--footer" href="#home" aria-label="NAD Coffee &amp; Eatery, back to top">
+          <img class="brand__logo" src="assets/images/nad-instagram-logo.jpg" alt="" />
+          <span class="brand__wording"><span class="brand__name">NAD</span><span class="brand__descriptor">COFFEE &amp; EATERY</span></span>
+        </a>
+        <p>A little closer<br /><em>to slow.</em></p>
+        <a class="footer-directions" href="https://maps.google.com/?q=NAD+Coffee+%26+Eatery+Batubulan+Gianyar" target="_blank" rel="noopener noreferrer">Batubulan, Gianyar <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom wrap"><span>© <span id="year">2026</span> NAD Coffee &amp; Eatery</span><a href="https://www.instagram.com/nad_bali/" target="_blank" rel="noopener noreferrer">Instagram @nad_bali ↗</a><span>MADE FOR THE MOMENTS THAT LINGER</span><a href="#home">Back to top ↑</a></div>
+    </footer>
+  </body>
+</html>
